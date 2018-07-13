@@ -55,7 +55,7 @@ function setRandom(){
 
 var btn = document.createElement("button");
 btn.style.fontWeight = "bold";
-btn.style.color = "red";
+btn.style.color = "pink";
 var txt = document.createTextNode("Random");
 btn.appendChild(txt);
 h2.appendChild(btn);
