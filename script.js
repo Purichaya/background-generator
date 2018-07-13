@@ -54,6 +54,8 @@ function setRandom(){
 }
 
 var btn = document.createElement("button");
+btn.style.fontWeight = "bold";
+btn.style.color = "red";
 var txt = document.createTextNode("Random");
 btn.appendChild(txt);
 h2.appendChild(btn);
